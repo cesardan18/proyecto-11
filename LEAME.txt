@@ -1,0 +1,10 @@
+Hola Profe,
+
+Aquí está nuestra página responsive y verificada, los integrantes somos:
+- Miguel Angel Yahuayre Zare
+- Cesar Daniel Anastacio Adrianzen
+- Miguel Angel Lopez Deza
+
+Aquí esta el link de netlify:
+
+https://lustrous-marigold-7f03f0.netlify.app
