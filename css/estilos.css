@@ -32,6 +32,7 @@ a{
     background-position:center;
     position: relative;
     border: solid 0.1875rem #92929291;
+    z-index: 99;
 }
 /**/
 
@@ -158,6 +159,13 @@ a{
 
 
 /* FILOSOFIA */
+.info > .contenido > .parrafo > ul{
+    list-style: none;
+    font-size: 1.125rem;
+    line-height: 1.4688rem;
+}
+.info > .contenido > .parrafo > ul > li{
+}
 /**/
 
 
