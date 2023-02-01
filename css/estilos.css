@@ -72,10 +72,6 @@ a{
     margin: 6.25rem 28.125rem 0.9375rem 0rem;
     color: whitesmoke;
 }
-.info{
-    margin: 2.1875rem 0rem 0.9375rem 0rem;
-    color: whitesmoke;
-}
 .contenido{
     width: 100%;
     display: inline-block;
@@ -105,12 +101,6 @@ a{
 .parrafo > p{
     font-size: 1.125rem;
     line-height: 1.5625rem;
-}
-.info > .contenido > .parrafo > p{
-    line-height: 1.4688rem;
-}
-.parrafo > p > a{
-    color:#1cf31c;
 }
 .parrafo > h6{
     font-size: 1.125rem;
@@ -147,6 +137,33 @@ a{
     }
 }
 /**/
+
+
+/* ACERCA DE */
+.info{
+    margin: 2.1875rem 0rem 0.9375rem 0rem;
+    color: whitesmoke;
+}
+.info > .contenido > .parrafo > p{
+    line-height: 1.4688rem;
+}
+.info> .contenido > .parrafo > p > a{
+    color:#1cf31c;
+}
+/**/
+
+
+/* EVENTOS */
+/**/
+
+
+/* FILOSOFIA */
+/**/
+
+
+/* CONTACTO */
+/**/
+
 
 /* MEDIAQUERYS */
 @media screen and (max-width: 900px){
