@@ -270,8 +270,20 @@ ul{
     .title > h1{
         font-size: 4.0625rem;
     }
+    .title > h3{
+        font-size: 3.125rem;
+    }
     .parrafo > p{
         padding-right: 1.125rem;
+    }
+    .contact-wrapper{
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
     }
 }
 
@@ -297,12 +309,31 @@ ul{
     .title > h1{
         font-size: 3.125rem;
     }
+    .title > h3{
+        font-size: 2.1875rem;
+    }
     .parrafo > p{
         padding-right: 0.3125rem;
         font-size: 0.625rem;
     }
+    .info > .contenido > .parrafo > ul{
+        font-size: 0.625rem;
+    }
     .boton{
         font-size: 0.625rem;
+    }
+    .contact-wrapper{
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .block > button{
+        font-size: 0.75rem;
+        padding: 0.625rem;
     }
 }
 /**/
