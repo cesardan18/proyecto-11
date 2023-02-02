@@ -157,6 +157,37 @@ ul{
 
 
 /* EVENTOS */
+.eventos{
+    display: flex;
+}
+.cont-event{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.cont-event > h4{
+    font-size: 1.5625rem;
+    color: #1cf31c;
+    opacity: 0.7;
+}
+.cont-event > img{
+    width: 100%;
+    opacity: 0.9;
+}
+.cont-event > p{
+    font-weight: 900;
+    opacity: 0.7;
+}
+.cont-event > span{
+    font-size: 1.125rem;
+    opacity: 0.5;
+}
+.cont-event > ul{
+    font-size: 1.125rem;
+    padding-bottom: 0.5rem;
+    opacity: 0.7;
+}
 /**/
 
 
@@ -266,6 +297,9 @@ ul{
     .container-info{
         margin: 6.25rem 0rem 0.9375rem 0rem;
     }
+    .title{
+        text-align: center;
+    }
     .title > h2{
         font-size: 2.1875rem;
     }
@@ -277,6 +311,12 @@ ul{
     }
     .parrafo > p{
         padding-right: 1.125rem;
+    }
+    .eventos{
+        flex-direction: column;
+    }
+    .cont-event{
+        font-size: 1.125rem;
     }
     .contact-wrapper{
         flex-direction: column;
@@ -305,6 +345,9 @@ ul{
     .info{
         margin: 2.1875rem 0rem 0.9375rem 0rem;
     }
+    .title{
+        text-align: center;
+    }
     .title > h2{
         font-size: 1.875rem;
     }
@@ -317,6 +360,12 @@ ul{
     .parrafo > p{
         padding-right: 0.3125rem;
         font-size: 0.75rem;
+    }
+    .eventos{
+        flex-direction: column;
+    }
+    .cont-event{
+        font-size: 1rem;
     }
     .info > .contenido > .parrafo > ul{
         font-size: 0.75rem;
