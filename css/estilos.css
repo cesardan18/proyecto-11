@@ -379,6 +379,9 @@ ul{
         margin: auto;
         margin-top: 2rem;
     }
+    .cont-event > h4{
+        font-size: 1.25rem;
+    }
     .cont-event > span{
         font-size: 0.75rem;
     }
