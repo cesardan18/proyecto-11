@@ -322,6 +322,12 @@ ul{
         margin: auto;
         margin-top: 2rem;
     }
+    .cont-event > span{
+        font-size: 1rem;
+    }
+    .cont-event > ul{
+        font-size: 1rem;
+    }
     .contact-wrapper{
         flex-direction: column;
     }
@@ -335,7 +341,7 @@ ul{
 
 @media screen and (max-width: 400px){
     body{
-        font-size: 0.625rem;
+        font-size: 0.75rem;
     }
     .general{
         padding: 1.25rem 0.3125rem 0.9375rem 0.3125rem;
@@ -369,9 +375,15 @@ ul{
         flex-direction: column;
     }
     .cont-event{
-        font-size: 1rem;
+        font-size: 0.875rem;
         margin: auto;
         margin-top: 2rem;
+    }
+    .cont-event > span{
+        font-size: 0.75rem;
+    }
+    .cont-event > ul{
+        font-size: 0.75rem;
     }
     .info > .contenido > .parrafo > ul{
         font-size: 0.75rem;
