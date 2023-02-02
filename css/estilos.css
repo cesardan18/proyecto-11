@@ -1,20 +1,24 @@
-* { 
-    margin: 0; 
-    padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: black;
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
     color: whitesmoke;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
+
 /* PARTÍCULAS */
 #particles-js {
     height: 100%;
@@ -25,13 +29,13 @@ ul{
 /**/
 
 /* CONTENEDOR GENERAL */
-.general{
+.general {
     width: 85%;
     margin: 1.5rem auto 1.5rem auto;
     padding: 1.5rem;
     background-image: url("/img/cont-fondo.png");
     background-size: cover;
-    background-position:center;
+    background-position: center;
     position: relative;
     border: solid 0.1875rem #92929291;
     z-index: 99;
@@ -39,48 +43,55 @@ ul{
 /**/
 
 /* MENU */
-.menu > ul {
-    display: flex; 
+.menu>ul {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0rem 0.5rem 0rem 0.5rem;
     margin-bottom: 1rem;
 }
-.menu > ul > li{
+
+.menu>ul>li {
     display: inline-block;
 }
-.menu > ul > li > a {
+
+.menu>ul>li>a {
     color: whitesmoke;
     font-weight: 300;
     border-bottom: solid 1.5625rem transparent;
     transition: .5s ease;
 }
-.menu > ul > li > a:hover {
+
+.menu>ul>li>a:hover {
     color: #1cf31c;
     border-bottom: solid 0.0625rem currentcolor;
 }
-.logo{
+
+.logo {
     padding: 0.3125rem 0rem 0.3125rem 0rem;
 }
-.logo > i{
-    font-size: 3.125rem; 
+
+.logo>i {
+    font-size: 3.125rem;
     color: #1cf31c;
 }
 /**/
 
 
-/* CONTENIDO */ 
-.container-info{
+/* CONTENIDO */
+.container-info {
     margin: 6.25rem 28.125rem 0.9375rem 0rem;
     color: whitesmoke;
 }
-.contenido{
+
+.contenido {
     width: 100%;
     display: inline-block;
     text-align: justify;
     transition: .5s ease;
 }
-.title > h2{
+
+.title>h2 {
     font-size: 3.125rem;
     font-weight: 100;
     letter-spacing: 0.3438rem;
@@ -88,30 +99,35 @@ ul{
     margin-left: 0.0625rem;
     margin-bottom: 0.625rem;
 }
-.title > h1{
+
+.title>h1 {
     font-size: 6.25rem;
     font-weight: 800;
     opacity: 0.8;
     letter-spacing: 0.0625rem;
 }
-.parrafo{
+
+.parrafo {
     font-weight: lighter;
     opacity: 0.5;
     margin-top: 0.625rem;
     margin-left: 0.125rem;
 }
-.parrafo > p{
+
+.parrafo>p {
     font-size: 1.125rem;
     line-height: 1.5625rem;
 }
-.parrafo > h6{
+
+.parrafo>h6 {
     font-size: 1.125rem;
     line-height: 1.5625rem;
     text-align: center;
     margin-top: 1.25rem;
     color: #07bb07;
 }
-.boton{
+
+.boton {
     font-size: 1.375rem;
     margin-top: 1.25rem;
     padding: 0.625rem 1.5rem 0.625rem 1.5rem;
@@ -124,18 +140,30 @@ ul{
     animation: animate 2s linear infinite;
     transition: .5s ease;
 }
-.boton:hover{
+
+.boton:hover {
     border: solid 0.0938rem #1cf31c;
     animation: none;
     transform: scale(.9);
 }
 
-@keyframes animate{  /* Animación */
-    0%, 40%, 45%, 48%, 50%, 100%{
+@keyframes animate {
+
+    /* Animación */
+    0%,
+    40%,
+    45%,
+    48%,
+    50%,
+    100% {
         opacity: 1;
     }
 
-    42%,  44%, 47%, 49%, 51%{
+    42%,
+    44%,
+    47%,
+    49%,
+    51% {
         opacity: 0;
     }
 }
@@ -143,49 +171,57 @@ ul{
 
 
 /* ACERCA DE */
-.info{
+.info {
     margin: 2.1875rem 0rem 0.9375rem 0rem;
     color: whitesmoke;
 }
-.info > .contenido > .parrafo > p{
+
+.info>.contenido>.parrafo>p {
     line-height: 1.4688rem;
 }
-.info> .contenido > .parrafo > p > a{
-    color:#1cf31c;
+
+.info>.contenido>.parrafo>p>a {
+    color: #1cf31c;
 }
 /**/
 
 
 /* EVENTOS */
-.eventos{
+.eventos {
     display: flex;
 }
-.cont-event{
+
+.cont-event {
     width: 100%;
     text-align: center;
     margin: 0.3125rem;
     background-color: rgba(0, 0, 0, 0.5);
     font-weight: 100;
 }
-.cont-event > h4{
+
+.cont-event>h4 {
     font-size: 1.5625rem;
     color: #1cf31c;
     opacity: 0.7;
     font-weight: 900;
 }
-.cont-event > img{
+
+.cont-event>img {
     width: 100%;
     opacity: 0.9;
 }
-.cont-event > p{
+
+.cont-event>p {
     font-weight: 500;
     opacity: 0.7;
 }
-.cont-event > span{
+
+.cont-event>span {
     font-size: 1.125rem;
     opacity: 0.5;
 }
-.cont-event > ul{
+
+.cont-event>ul {
     font-size: 1.125rem;
     padding-bottom: 0.5rem;
     opacity: 0.7;
@@ -194,39 +230,45 @@ ul{
 
 
 /* FILOSOFIA */
-.info > .contenido > .parrafo > ul{
+.info>.contenido>.parrafo>ul {
     list-style: none;
     font-size: 1.125rem;
     line-height: 1.4688rem;
     color: #1cf31c;
 }
+
 /**/
 
 
 /* CONTACTO */
-.title > h3{
+.title>h3 {
     font-size: 3.125rem;
     font-weight: 800;
     opacity: 0.8;
     letter-spacing: 0.0625rem;
 }
-.contact-wrapper{
+
+.contact-wrapper {
     display: flex;
     opacity: 0.7;
 }
-.contact-form{
+
+.contact-form {
     width: 70%;
 }
-.contact-form > form > p > label{
+
+.contact-form>form>p>label {
     display: block;
     font-weight: 100;
 }
-.contact-form > form > p{
+
+.contact-form>form>p {
     padding: 0.4375rem 0rem 0.375rem 0rem;
 }
-.block > button,
-.contact-form > form > p > input,
-.block > textarea{
+
+.block>button,
+.contact-form>form>p>input,
+.block>textarea {
     width: 100%;
     font-size: 1rem;
     padding: 0.3125rem;
@@ -237,7 +279,7 @@ ul{
     border-bottom: 0.0625rem solid #1cf31c;
 }
 
-.block > button{
+.block>button {
     font-size: 1rem;
     font-weight: 900;
     background: #1cf31c;
@@ -246,36 +288,42 @@ ul{
     padding: 1rem;
     transition: .5s ease;
 }
-.block > button:hover,
-.block > button:focus {
+
+.block>button:hover,
+.block>button:focus {
     background: #07bb07;
     transform: scale(.9);
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
 }
-
-
-
 /* Contact info*/
 .contact-info {
     width: 30%;
 }
-.cont-info{
+
+.cont-info {
     margin: 3rem;
 }
-.cont-info > h4, .cont-info > ul, .cont-info > p, .cont-info > h6 {
+
+.cont-info>h4,
+.cont-info>ul,
+.cont-info>p,
+.cont-info>h6 {
     text-align: center;
     margin: 0 0 1rem 0;
     font-weight: 100;
 }
-.cont-info > h4{
+
+.cont-info>h4 {
     font-weight: 900;
 }
-.cont-info > ul > li > i{
+
+.cont-info>ul>li>i {
     padding-right: 1rem;
 }
-.cont-info > h6{
+
+.cont-info>h6 {
     font-size: 0.9375rem;
     font-weight: 100;
 }
@@ -283,127 +331,163 @@ ul{
 
 
 /* MEDIAQUERYS */
-@media screen and (max-width: 900px){
-    body{
+@media screen and (max-width: 900px) {
+    body {
         font-size: 0.875rem;
     }
-    .general{
+
+    .general {
         padding: 1.25rem;
     }
-    .logo > i{
-        font-size: 2.1875rem; 
-    }
-    .container-info{
-        margin: 6.25rem 0rem 0.9375rem 0rem;
-    }
-    .container-info{
-        margin: 6.25rem 0rem 0.9375rem 0rem;
-    }
-    .title{
-        text-align: center;
-    }
-    .title > h2{
+
+    .logo>i {
         font-size: 2.1875rem;
     }
-    .title > h1{
+
+    .container-info {
+        margin: 6.25rem 0rem 0.9375rem 0rem;
+    }
+
+    .container-info {
+        margin: 6.25rem 0rem 0.9375rem 0rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title>h2 {
+        font-size: 2.1875rem;
+    }
+
+    .title>h1 {
         font-size: 4.0625rem;
     }
-    .title > h3{
+
+    .title>h3 {
         font-size: 3.125rem;
     }
-    .parrafo > p{
+
+    .parrafo>p {
         padding-right: 1.125rem;
     }
-    .eventos{
+
+    .eventos {
         flex-direction: column;
     }
-    .cont-event{
+
+    .cont-event {
         font-size: 1.125rem;
         margin: auto;
         margin-top: 2rem;
     }
-    .cont-event > span{
+
+    .cont-event>span {
         font-size: 1rem;
     }
-    .cont-event > ul{
+
+    .cont-event>ul {
         font-size: 1rem;
     }
-    .contact-wrapper{
+
+    .contact-wrapper {
         flex-direction: column;
     }
-    .contact-form{
+
+    .contact-form {
         width: 100%;
     }
-    .contact-info{
+
+    .contact-info {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 400px){
-    body{
+@media screen and (max-width: 400px) {
+    body {
         font-size: 0.75rem;
     }
-    .general{
+
+    .general {
         padding: 1.25rem 0.3125rem 0.9375rem 0.3125rem;
     }
-    .logo > i{
-        font-size: 1.875rem; 
-    }
-    .container-info{
-        margin: 6.25rem 0rem 0.9375rem 0rem;
-    }
-    .info{
-        margin: 2.1875rem 0rem 0.9375rem 0rem;
-    }
-    .title{
-        text-align: center;
-    }
-    .title > h2{
+
+    .logo>i {
         font-size: 1.875rem;
     }
-    .title > h1{
+
+    .container-info {
+        margin: 6.25rem 0rem 0.9375rem 0rem;
+    }
+
+    .info {
+        margin: 2.1875rem 0rem 0.9375rem 0rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title>h2 {
+        font-size: 1.875rem;
+    }
+
+    .title>h1 {
         font-size: 3.125rem;
     }
-    .title > h3{
+
+    .title>h3 {
         font-size: 2.1875rem;
     }
-    .parrafo > p{
+
+    .parrafo>p {
         padding-right: 0.3125rem;
         font-size: 0.75rem;
     }
-    .eventos{
+
+    .eventos {
         flex-direction: column;
     }
-    .cont-event{
+
+    .cont-event {
         font-size: 0.875rem;
         margin: auto;
         margin-top: 2rem;
     }
-    .cont-event > h4{
+
+    .cont-event>h4 {
         font-size: 1.25rem;
     }
-    .cont-event > span{
+
+    .cont-event>span {
         font-size: 0.75rem;
     }
-    .cont-event > ul{
+
+    .cont-event>ul {
         font-size: 0.75rem;
     }
-    .info > .contenido > .parrafo > ul{
+
+    .info>.contenido>.parrafo>ul {
         font-size: 0.75rem;
     }
-    .boton{
+
+    .boton {
         font-size: 0.75rem;
     }
-    .contact-wrapper{
+
+    .contact-wrapper {
         flex-direction: column;
     }
-    .contact-form{
+
+    .contact-form {
         width: 100%;
     }
-    .contact-info{
+
+    .contact-info {
         width: 100%;
     }
-    .block > button{
+
+    .block>button {
         font-size: 0.75rem;
         padding: 0.625rem;
     }
