@@ -165,18 +165,20 @@ ul{
     text-align: center;
     margin: 5px;
     background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 100;
 }
 .cont-event > h4{
     font-size: 1.5625rem;
     color: #1cf31c;
     opacity: 0.7;
+    font-weight: 900;
 }
 .cont-event > img{
     width: 100%;
     opacity: 0.9;
 }
 .cont-event > p{
-    font-weight: 900;
+    font-weight: 500;
     opacity: 0.7;
 }
 .cont-event > span{
