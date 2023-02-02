@@ -314,13 +314,13 @@ ul{
     }
     .parrafo > p{
         padding-right: 0.3125rem;
-        font-size: 0.625rem;
+        font-size: 0.75rem;
     }
     .info > .contenido > .parrafo > ul{
-        font-size: 0.625rem;
+        font-size: 0.75rem;
     }
     .boton{
-        font-size: 0.625rem;
+        font-size: 0.75rem;
     }
     .contact-wrapper{
         flex-direction: column;
